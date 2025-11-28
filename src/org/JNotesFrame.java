@@ -20,7 +20,8 @@ public class JNotesFrame extends JFrame
             + " User can delete a specific date, but only one date can be deleted at a time and the deleted row must be repopulated with data before closing "
             + "the program. \n\n"
             + "In the Chart Panel user can select various dates and categories to chart, however, end date cannot exceed start date by more than 365 days."
-            + " And if user selects more than 30 days to view, not all dates will be readable along the X-Axis of chart."; 
+            + " And if user selects more than 30 days to view, not all dates will be readable along the X-Axis of chart."
+            + "Covid-19 Data was provided from the New York Times daily tracker.";
     private JPanel JNotesPagePnl;
     private JScrollPane jScrollPane1;
     private JTextArea JNotesTA;
